@@ -1,0 +1,1268 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: url(./images/dfd21b1d91cd0bed4457a5b7a797d493\ 1.png);
+  background-repeat: no-repeat;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 5rem;
+  height: 150px;
+}
+
+.logo {
+  width: 55px;
+  height: 70px;
+}
+
+.nav_name_wrap {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+nav p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 170.19%;
+  color: #959595;
+}
+
+.nav_box {
+  width: 50px;
+  height: 50px;
+  background: #7ab674;
+  border-radius: 8px;
+}
+
+.hero_container {
+  display: flex;
+  padding-bottom: 260px;
+  padding: 50px;
+}
+
+.hero_container > div {
+  width: 50%;
+}
+
+.hero_left > h2 {
+  font-size: 6rem;
+  color: #273029;
+  font-weight: 500;
+  line-height: 5rem;
+}
+
+.hero_left > h4 {
+  margin-top: 10px;
+  font-size: 4rem;
+  color: #7ab674;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.hero_left_text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #959595;
+  margin-bottom: 20px;
+}
+
+.hero_btn {
+  background: #7ab674;
+  color: #fff;
+  border: 1px solid #7ab674;
+  border-radius: 3px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  width: 250px;
+}
+
+.hero_right {
+  position: static;
+}
+
+.hero_right_top {
+  position: relative;
+  display: flex;
+}
+
+.wardrobe_image {
+  width: 500px;
+  height: 800px;
+  position: relative;
+  z-index: 2;
+}
+
+.measurements {
+  padding-top: 4rem;
+}
+
+.measurements > div {
+  margin-bottom: 20px;
+}
+
+.measurements h6 {
+  font-size: 24px;
+  color: #273029;
+  margin-bottom: 20px;
+}
+
+.measurement_title {
+  font-size: 16px;
+  color: #959595;
+}
+
+.measurement_unit {
+  font-size: 22px;
+  color: #7ab674;
+  font-weight: 700;
+}
+
+.hero_rigt_bottom_background {
+  position: relative;
+  bottom: 18rem;
+  left: -10rem;
+  width: 800px;
+  height: 400px;
+  background-color: #b09b8c;
+}
+
+.wardrobe_images {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  height: 100%;
+  align-items: flex-end;
+  transform: translateY(80px);
+}
+
+.wardrobe_images > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wardrobe_images p {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.wardrobe_images img {
+  width: 140px;
+  height: 140px;
+  border: 4px solid white;
+  border-radius: 50%;
+}
+.section3 {
+  display: flex;
+  gap: 100px;
+  padding-left: 50px;
+  margin-top: 150px;
+}
+.section3_div {
+  background-color: white;
+  position: relative;
+  top: 150px;
+  padding: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  left: 50px;
+}
+.detail_produk {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  color: #7ab674;
+  margin-bottom: 18px;
+}
+.alfonso_wardrobe {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #273029;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.two_doors {
+  color: #b09b8c;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.section3p_text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #959595;
+}
+.Eco_furnitures {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #273029;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #7ab674;
+}
+.links {
+  display: flex;
+  gap: 20px;
+  padding: 5px;
+  width: 100%;
+  padding-top: 20px;
+}
+.links a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  width: 100%;
+  border-bottom: 1px solid gray;
+  padding-bottom: 14px;
+}
+button {
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.links button {
+  height: 47px;
+  align-content: center;
+  width: 47px;
+  font-size: 20px;
+  margin-right: 22px;
+  text-align: center;
+  border: none;
+  border-radius: 9999px;
+  padding: 10px;
+  border-radius: 9999px;
+  color: #7ab674;
+  background: white;
+  border: 1px solid #7ab674;
+}
+.arrow_left_right_icon {
+  height: 5px;
+  width: 5px;
+}
+
+.room_space_section {
+  display: flex;
+  justify-content: center;
+}
+.room_space_section img {
+  width: 1400px;
+  height: 1000px;
+  object-fit: fill;
+}
+.section4 {
+  padding: 50px;
+  text-align: center;
+}
+.section4 p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+.section4_images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.closed_wardrobe {
+  height: 320px;
+  width: 300px;
+}
+.fitur_text {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  color: #7ab674;
+}
+.overview_text {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  color: #7ab674;
+  margin-bottom: 20px;
+}
+.kelebihan_text {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  color: black;
+  margin-bottom: 10px;
+}
+.kele_text {
+  color: #b09b8c;
+}
+.untuk_text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #959595;
+  margin-bottom: 20px;
+}
+.section6 {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+.section6 img {
+  height: 780px;
+  width: 600px;
+  background-image: url(./images/dfd21b1d91cd0bed4457a5b7a797d493\ 1.png);
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+}
+.number_list {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.number_list_text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #959595;
+  border-bottom: 1px solid gray;
+  width: 30ch;
+  padding-bottom: 27px;
+  padding-top: 27px;
+}
+
+.number_buttons {
+  font-style: normal;
+  font-weight: 900;
+  height: 47px;
+  align-content: center;
+  width: 47px;
+  font-size: 20px;
+  margin-right: 22px;
+  text-align: center;
+  color: #ffffff;
+  background: #b09b8c;
+  border: none;
+  border-radius: 9999px;
+}
+.section7 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 200px;
+}
+.section7_button {
+  background: #7ab674;
+  border: none;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  color: #ffffff;
+  position: relative;
+  bottom: 250px;
+  left: 180px;
+}
+.hero_section7 p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #959595;
+}
+.galeri_text {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  padding-top: 40px;
+}
+.galeri {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  color: #b09b8c;
+}
+.opened_wardrobe_image {
+  margin-bottom: 30px;
+  height: 700px;
+  width: 606px;
+}
+.closed_wardrobe_image {
+  height: 730px;
+  width: 600px;
+}
+.mengantu_text {
+  color: #7ab674;
+}
+
+.section7b {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.hero_section7b p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #959595;
+}
+.hero_section7bb p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #959595;
+  text-align: center;
+}
+
+.galeri_textb {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  padding-top: 40px;
+  text-align: center;
+}
+.galerib {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  color: #b09b8c;
+}
+.opened_wardrobe_imageb {
+  margin-bottom: 30px;
+  height: 700px;
+  width: 606px;
+}
+.closed_wardrobe_imageb {
+  height: 1150px;
+  width: 600px;
+}
+.mengantu_textb {
+  color: #7ab674;
+}
+
+.section_sevenb {
+  display: none;
+}
+.section8 {
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.hero_section8 p {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  text-align: center;
+  color: #7ab674;
+}
+.hero_section8 h2 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 70px;
+  color: #273029;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.hero_section8 button {
+  background: #7ab674;
+  border: none;
+  color: white;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  position: relative;
+  top: 220px;
+}
+.section9 {
+  background: #eeeeee;
+  align-items: center;
+}
+.hero_section9 {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  background: white;
+  width: 80%;
+  margin: 200px;
+  box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.09);
+  padding: 100px;
+  transform: translateY(120px);
+  align-items: center;
+}
+.hero_section9 h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 128px;
+  color: #b09b8c;
+  padding-top: 33px;
+}
+.section9_text {
+  display: flex;
+  gap: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #273029;
+  padding-bottom: 40px;
+}
+.section9_text img {
+  height: 47px;
+  align-content: center;
+  width: 47px;
+  font-size: 20px;
+  margin-right: 22px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  border-radius: 9999px;
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 9999px;
+}
+.section9_t {
+  display: flex;
+  gap: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #273029;
+}
+.section9_t img {
+  height: 47px;
+  align-content: center;
+  width: 47px;
+  font-size: 20px;
+  margin-right: 22px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  border-radius: 9999px;
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 9999px;
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 9999px;
+}
+.section9_link_text {
+  padding-top: 48px;
+}
+.hero_section10 {
+  background-image: url(./images/e674c257525fda5f6ef12be87f81f7c3\ 1.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+.hero_section10 {
+  display: flex;
+  gap: 200px;
+  padding: 200px;
+  padding-top: 200px;
+}
+.hero_section10 a {
+  text-decoration: none;
+  color: black;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 230.19%;
+  color: #273029;
+}
+.hero_section10 li {
+  list-style: none;
+}
+.footer_heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  color: #273029;
+  padding-bottom: 15px;
+}
+.footer_hero_text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #959595;
+}
+.footer_end_text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #959595;
+  padding-left: 161px;
+}
+.fern_plant {
+  position: relative;
+  bottom: 350px;
+  left: 50px;
+  display: none;
+}
+
+@media (max-width: 834px) {
+  nav {
+    padding: 0px 2rem;
+  }
+
+  .logo {
+    width: 50px;
+    height: 60px;
+  }
+
+  nav p {
+    font-size: 18px;
+  }
+
+  .nav_box {
+    width: 45px;
+    height: 45px;
+  }
+
+  .hero_container {
+    flex-direction: column;
+    padding: 0px 2rem;
+  }
+
+  .hero_container > div {
+    width: 100%;
+  }
+
+  .hero_left > h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .hero_left > h4 {
+    font-size: 2rem;
+  }
+
+  .hero_left_text {
+    font-size: 16px;
+  }
+
+  .hero_btn {
+    height: 45px;
+    font-size: 14px;
+    width: 170px;
+  }
+
+  .hero_right_top {
+    margin-top: 3rem;
+    flex-direction: row-reverse;
+  }
+
+  .wardrobe_image {
+    width: 400px;
+    height: 550px;
+  }
+
+  .measurements > div {
+    margin-bottom: 16px;
+  }
+
+  .measurements h6 {
+    margin-bottom: 16px;
+    font-size: 18px;
+  }
+
+  .measurement_title {
+    font-size: 14px;
+  }
+
+  .measurement_unit {
+    font-size: 18px;
+  }
+
+  .wardrobe_images img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .wardrobe_images {
+    transform: translateY(30px);
+  }
+
+  .hero_rigt_bottom_background {
+    bottom: -3rem;
+    left: 12rem;
+    width: 500px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 390px) {
+  nav,
+  .hero_container {
+    padding: 0px 2rem;
+  }
+  nav p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #959595;
+  }
+
+  .logo {
+    width: 30px;
+    height: 30px;
+  }
+
+  .nav_name_wrap {
+    display: none;
+    align-items: center;
+    gap: 40px;
+  }
+  .nav_box {
+    width: 50px;
+    height: 50px;
+    background: #7ab674;
+    border-radius: 8px;
+    display: none;
+  }
+  .measurements {
+    padding-top: 4rem;
+    position: relative;
+    left: 60px;
+  }
+
+  .measurements > div {
+    margin-bottom: 20px;
+  }
+
+  .measurements h6 {
+    font-size: 18px;
+    color: #273029;
+    margin-bottom: 20px;
+  }
+
+  .measurement_title {
+    font-size: 12px;
+    color: #959595;
+  }
+
+  .measurement_unit {
+    font-size: 15px;
+    color: #7ab674;
+    font-weight: 700;
+  }
+
+  .hero_container {
+    display: flex;
+    padding-bottom: 260px;
+    padding: 50px;
+  }
+
+  .hero_container > div {
+    width: 50%;
+  }
+  .hero_left > h2 {
+    font-size: 3rem;
+    color: #273029;
+    font-weight: 500;
+    line-height: 5rem;
+  }
+
+  .hero_left > h4 {
+    margin-top: 10px;
+    font-size: 2rem;
+    color: #7ab674;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  .hero_left_text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #959595;
+    margin-bottom: 20px;
+  }
+
+  .hero_btn {
+    background: #7ab674;
+    color: #fff;
+    border: 1px solid #7ab674;
+    border-radius: 3px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 900;
+    width: 250px;
+  }
+  .hero_left_text {
+    max-width: 300px;
+    white-space: nowrap;
+  }
+  .hero_container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 1rem;
+  }
+  .hero_right_top {
+    padding-left: 80px;
+  }
+  .hero_rigt_bottom_background {
+    position: sticky;
+    margin-right: 50px;
+    left: 20px;
+    width: 200px;
+    height: 400px;
+    background-color: #b09b8c;
+    align-items: center;
+  }
+
+  .wardrobe_image {
+    position: relative;
+    left: 30px;
+    top: 60px;
+    width: 150px;
+    height: 340px;
+    transform: translateY(100px);
+    transform: translateX(30px);
+  }
+  .wardrobe_images {
+    flex-direction: column;
+    display: grid;
+    gap: 0px;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    margin: 0 auto;
+    transform: translateY(80px);
+  }
+
+  .wardrobe_images p {
+    font-size: 8px;
+  }
+
+  .wardrobe_images img {
+    width: 50px;
+    height: 50px;
+  }
+
+
+  .hero_rigt_bottom_background {
+    position: relative;
+    width: 250px;
+    height: 150px;
+    bottom: 40px;
+  }
+  .section3 {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .hero_text_section3 {
+    width: 100%;
+  }
+  .section3 h2 {
+    white-space: nowrap;
+    font-size: 30px;
+  }
+  .link_text a {
+    border-bottom: 0;
+    font-weight: 300;
+  
+  }
+  .section3p_text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #959595;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 34ch;
+  }
+  .section3_div {
+    position: sticky;
+    height: 20%;
+    right: 60px;
+  }
+  .Eco_furnitures {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #7ab674;
+  }
+  .section3 a {
+    font-size: 18px;
+    font-weight: 200;
+    width: 20ch;
+    border-bottom: 0;
+  }
+
+  .room_space_section img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .section4 h2 {
+    font-size: 20px;
+  }
+  .section4 p {
+    font-size: 15px;
+    width: 30ch;
+  }
+  .section4_images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .room_space_section {
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+  .number_list_text {
+    font-size: 10px;
+    font-weight: 500;
+  }
+  .number_buttons {
+    font-size: 12px;
+  }
+  .prabot_image {
+    width: 50%;
+  }
+  .section6 {
+    display: flex;
+    flex-direction: column;
+  }
+  .section6_text {
+    white-space: nowrap;
+  }
+  .section6_text h2 {
+    font-size: 25px;
+  }
+  .section6_text p {
+    padding-right: 140px;
+    margin-bottom: 28px;
+  }
+
+  .section6 img {
+    height: 600px;
+    width: 300px;
+    background: none;
+  }
+  
+
+  .section7 {
+    display: none;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap-reverse;
+  }
+  .hero_section7 p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #959595;
+  }
+  .galeri_text {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    padding-top: 40px;
+  }
+  .galeri {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    color: #b09b8c;
+  }
+  .section_seven {
+    display: none;
+  }
+  .section7 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  .hero_section7 p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #959595;
+  }
+  .galeri_text {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    padding-top: 40px;
+  }
+  .galeri {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    color: #b09b8c;
+  }
+  .opened_wardrobe_image {
+    margin-bottom: 30px;
+    height: 700px;
+    width: 606px;
+  }
+  .closed_wardrobe_image {
+    height: 730px;
+    width: 600px;
+  }
+  .mengantu_text {
+    color: #7ab674;
+  }
+
+  .section_sevenb {
+    display: block;
+  }
+  .section7b {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  .hero_section7b p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #959595;
+  }
+  .hero_section7bb p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    width: 35ch;
+    padding-left: 20px;
+    color: #959595;
+    text-align: start;
+  }
+  .section7b button {
+    display: none;
+  }
+
+  .galeri_textb {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    padding-top: 40px;
+    text-align: start;
+    white-space: nowrap;
+    padding-left: 20px;
+  }
+  .galerib {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    color: #b09b8c;
+  }
+  .opened_wardrobe_imageb {
+    margin-bottom: 30px;
+    height: 500px;
+    width: 400px;
+  }
+  .closed_wardrobe_imageb {
+    height: 500px;
+    width: 400px;
+  }
+  .cloth_image {
+    height: 500px;
+    width: 400px;
+  }
+  .mengantu_textb {
+    color: #7ab674;
+  }
+  .section8 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .hero_section8 p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    text-align: center;
+    color: #7ab674;
+  }
+  .hero_section8 h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #273029;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .hero_section8 button {
+    background: #7ab674;
+    border: none;
+    color: white;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    position: relative;
+    margin-top: 30px;
+    top: -5px;
+  }
+  .hero_section9 {
+    display: block;
+    justify-content: center;
+    gap: 100px;
+    background: white;
+    width: 90%;
+    margin: 50px;
+    position: relative;
+    bottom: 70px;
+    right: 30px;
+    box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.09);
+    padding: 20px;
+    align-items: center;
+  }
+  .hero_section9 h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    color: #b09b8c;
+    padding-top: 33px;
+  }
+  .section9_text {
+    display: flex;
+    gap: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #273029;
+    padding-bottom: 40px;
+  }
+  .section9_text img {
+    height: 35px;
+    align-content: center;
+    width: 35px;
+    font-size: 20px;
+    margin-right: 22px;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    border-radius: 9999px;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 9999px;
+  }
+  .section9_t {
+    display: flex;
+    gap: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #273029;
+  }
+  .section9_t img {
+    height: 35px;
+    align-content: center;
+    width: 35px;
+    font-size: 20px;
+    margin-right: 22px;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    border-radius: 9999px;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 9999px;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 9999px;
+  }
+  .section9_link_text {
+    padding-top: 48px;
+  }
+  .hero_section10 {
+    background: none;
+    width: fit-content;
+  }
+  .hero_section10 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 165px;
+    padding-top: 200px;
+    position: relative;
+    bottom: 100px;
+    right: 80px;
+  }
+  .hero_section10 a {
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 170.19%;
+    color: #273029;
+    white-space: nowrap;
+  }
+  .hero_section10 li {
+    list-style: none;
+  }
+  .footer_heading {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    color: #273029;
+    padding-bottom: 15px;
+  }
+  .footer_hero_text {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 13px;
+    color: #959595;
+    width: 40ch;
+  }
+  .footer_end_text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #959595;
+    padding-left: 100px;
+    position: relative;
+    bottom: 150px;
+    right: 18px;
+    background-repeat: no-repeat;
+    background-position: 100px;
+  }
+  .fern_plant {
+    position: relative;
+    bottom: 350px;
+    left: 50px;
+    display: block;
+  }
+}
